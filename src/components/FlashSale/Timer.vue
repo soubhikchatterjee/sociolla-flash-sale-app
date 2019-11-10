@@ -2,11 +2,11 @@
   <div class="timer-wrapper">
     <div class="content">Berakhir Dalam</div>
     <div class="timers">
-      <Time :time="6" />
+      <Time time="06" />
       <span class="seperator">:</span>
-      <Time :time="36" />
+      <Time time="36" />
       <span class="seperator">:</span>
-      <Time :time="20" />
+      <Time time="20" />
     </div>
   </div>
 </template>

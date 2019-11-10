@@ -10,11 +10,7 @@
       :oldPrice="oldPrice"
       :newPrice="newPrice"
     />
-    <Footer
-      :type="type"
-      :showProgress="showProgress"
-      :progress-percentage="progressPercentage"
-    />
+    <Footer :type="type" :showProgress="showProgress" :progress-percentage="progressPercentage" />
   </div>
 </template>
 
@@ -41,10 +37,7 @@ export default {
     "newPrice",
     "showProgress",
     "progressPercentage"
-  ],
-  created() {
-    // console.log("created", this.showProgress);
-  }
+  ]
 };
 </script>
 
